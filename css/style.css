@@ -1,0 +1,26 @@
+.ui-widget {
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  display: flex;
+}
+
+#tags {
+  position: fixed; /* or absolute */
+  top: 60%;
+  left: 25%;
+  width: 50%;
+}
+
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+  height: 100px;
+}

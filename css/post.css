@@ -1,0 +1,71 @@
+.starRating{
+  display        : inline-block;
+  position       : relative;
+  height         : 24px;
+  background     : url('stars.png') repeat-x 0 0;
+  vertical-align : bottom;
+}
+
+.starRating div{
+  float    : left;
+  position : relative;
+  height   : 24px;
+}
+
+.starRating input{
+  position : relative;
+  z-index  : 1;
+  width    : 24px;
+  height   : 24px;
+  margin   : 0;
+  padding  : 0;
+  opacity  : 0;
+}
+
+.starRating label{
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  width    : 100%;
+  height   : 24px;
+}
+
+.starRating span{
+  display : none;
+}
+
+.starRating       input:checked       + label,
+.starRating:hover input:checked:hover + label{
+  background : url('stars.png') repeat-x 0 -24px;
+}
+
+.starRating:hover input:checked + label{
+  background : transparent;
+}
+
+.starRating:hover input:hover + label{
+  background : url('stars.png') repeat-x 0 -48px;
+}
+
+
+frameset {
+  height: 100%;
+}
+legend {
+  margin-top: 20px;
+}
+form {
+  height: 100%;
+}
+html, body {
+  height: 100%;
+}
+.container {
+  height: 50%;
+}
+textarea {
+  display: block;
+  resize: none;
+  width: 100%;
+  height: 100%;
+}

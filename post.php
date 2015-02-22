@@ -16,7 +16,7 @@ $courseid = addslashes($c);
 $user = "root";
 $password = "";
 try {
-$db = new PDO("mysql:host=localhost;dbname=courses", $user, $password);
+$db = new PDO("mysql:host=localhost;dbname=findszxl_courses", $user, $password);
 }
 catch (PDOException $e) {
     echo 'ERROR:' . $e->getMessage();

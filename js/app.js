@@ -2,6 +2,7 @@
 'use strict';
 
 $(function() {
+  $('#error').hide();
   var request = $.ajax({
     type: 'GET',
     url: 'get-tags.php',
@@ -28,7 +29,6 @@ $(function() {
       $('#classForm').submit();
     }
   });
-  console.log(tags);
   $('#tags').autocomplete({
     minLength: 0,
     source: tags,

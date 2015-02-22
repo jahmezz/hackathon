@@ -3,7 +3,7 @@
 <html>
   <head>
     <title>Review</title>
-     <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
     <link rel='stylesheet' href='css/post.css'>
     <script src='libs/jquery-1.9.1.js'></script>
     <script src='js/rating.js'></script>
@@ -40,7 +40,7 @@
           </div>
           <br><br>
           <input id='username' type='text' name='username' placeholder='Username' required>
-          <br>
+          <br><br>
           <textarea name='review' placeholder='Write review here...' required></textarea>
           <input type='hidden' name='class' value=<?php echo urlencode($c)?>></input>
            <input class='btn-large btn-success btn-primary btn-block' type='submit'> 

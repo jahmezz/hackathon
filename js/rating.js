@@ -1,3 +1,6 @@
+/*global $*/
+'use strict';
+
 var logID = 'log',
   log = $('<div id="'+logID+'"></div>');
 $('body').append(log);

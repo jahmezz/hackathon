@@ -24,3 +24,18 @@
 * html .ui-autocomplete {
   height: 100px;
 }
+
+#error {
+  position: fixed; /* or absolute */
+  top: 65%;
+  left: 25%;
+  width: 50%;
+  color: red;
+}
+
+#logo {
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 25%;
+  width: 50%;
+}

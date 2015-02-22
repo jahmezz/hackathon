@@ -1,4 +1,4 @@
-.starRating{
+.starRating {
   display        : inline-block;
   position       : relative;
   height         : 24px;
@@ -52,7 +52,7 @@ frameset {
   height: 100%;
 }
 legend {
-  margin-top: 20px;
+  margin-top: 20px; 
 }
 form {
   height: 100%;
@@ -68,4 +68,12 @@ textarea {
   resize: none;
   width: 100%;
   height: 100%;
+}
+
+.padded-top {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 5px;
 }
